@@ -2,6 +2,147 @@
     margin: 0;
     padding: 0;
 }
+body{
+    max-width: 2480px;
+    max-height: 1400px;
+    position: relative;
+    margin: auto 0;
+}
 .container{
+    position: relative;
+    background-color: #EFEFEF;
+    max-width: 2480px;
+    max-height: 1400px;
+    margin: auto 0;
+}
+.profile{
+display: flex;
+position: relative;
+height: 1200px;
+max-width: 356px;
+border-radius: solid 1px;
+background-color: #393939;
+left: 0px;
+top: 0px;
+}
+.profilePic{
+position: absolute;
+width: 356px;
+height: 299px;
+left: 0px;
+top: 0px;
+}
+h1{
+    position: absolute;
+width: 546px;
+height: 256px;
+left: 547px;
+top: 51px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 182;
+font-size: 96px;
+line-height: 116px;
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+}
+#work{
+    position: absolute;
+width: 244px;
+height: 48px;
+left: 547px;
+top: 312px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 469;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+font-variation-settings: 'slnt' 0;
+}
+#profilePhoto{
+position: relative;
+width: 356px;
+height: 299px;
+left: 0px;
+top: 0px;
+}
+#profileInfo{
+    position: relative;
+width: 168px;
+height: 48px;
+left: 95px;
+top: 321px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+#txtUnderProfile{
+    position: absolute;
+    width: 280px;
+    height: 125px;
+    left: 56px;
+    top: 391px;
     
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
+}
+#SKILLS{
+    position: absolute;
+    width: 138px;
+height: 48px;
+left: 111px;
+top: 516px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+#contact{
+    position: absolute;
+width: 202px;
+height: 48px;
+left: 79px;
+top: 781px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+}
+a{
+    position: absolute;
+    width: 63px;
+    height: 19px;
+    left: 147px;
+    top: 883px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #FFFFFF;
 }
