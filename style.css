@@ -1,35 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
 body{
     max-width: 2480px;
-    max-height: 1400px;
+    height: 100%;
     position: relative;
-    margin: auto 0;
 }
 .container{
     position: relative;
     background-color: #EFEFEF;
     max-width: 2480px;
-    max-height: 1400px;
+    height: 100%;
     margin: auto 0;
 }
 .profile{
 display: flex;
 position: relative;
-height: 1200px;
+height: 100%;
 max-width: 356px;
-border-radius: solid 1px;
+border: solid 1px;
 background-color: #393939;
 left: 0px;
 top: 0px;
 }
 .profilePic{
+
 position: absolute;
 width: 356px;
 height: 299px;
-left: 0px;
+left: -1px;
 top: 0px;
 }
 h1{
@@ -145,4 +158,15 @@ a{
     line-height: 19px;
     
     color: #FFFFFF;
+}
+.footer{
+    position: absolute;
+    color: rgba(129, 128, 128, 0.65);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 15px;
+    left: 60px;
+    bottom: 40px;
 }
