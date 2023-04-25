@@ -170,3 +170,16 @@ a{
     left: 60px;
     bottom: 40px;
 }
+/* .mainInfo{
+    position: relative;
+    margin-left: 281;
+} */
+.myProjs{
+    position: absolute;
+    display: flex;
+    border: solid 1px;
+    margin: 0 auto;
+    right: 0;
+    height: 750px;
+    width: 1870px;
+}
