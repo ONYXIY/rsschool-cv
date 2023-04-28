@@ -21,7 +21,7 @@ body{
     position: relative;
 }
 .container{
-    position: relative;
+    position: flex;
     background-color: #EFEFEF;
     max-width: 2480px;
     height: 100%;
@@ -178,8 +178,29 @@ a{
     position: absolute;
     display: flex;
     border: solid 1px;
-    margin: 0 auto;
-    right: 0;
+    right: 100px;
+    top: 370px;
     height: 750px;
-    width: 1870px;
+    width: 1200px;
+}
+.calc{
+    position: relative;
+    border: solid 1px;
+    height: 450px;
+    width: 300px;
+    left: 800px;
+    top: 100px;
+    border-radius: 10px;
+    background-color: #393939;
+}
+#calcDisplay{
+    position: relative;
+    background-color: beige;
+    display: flex;
+    border: solid 1px;
+    height: 75px;
+    width: 250px;
+    border-radius: 10px;
+    margin: 0 auto;
+    top: 30px;
 }
