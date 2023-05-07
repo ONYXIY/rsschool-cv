@@ -23,24 +23,26 @@ body{
 .container{
     position: flex;
     background-color: #EFEFEF;
-    max-width: 2480px;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: auto 0;
 }
 .profile{
 display: flex;
-position: relative;
+position: fixed;
+margin-right: 10px;
 height: 100%;
-max-width: 356px;
+width: 356px;
 border: solid 1px;
 background-color: #393939;
 left: 0px;
 top: 0px;
+
 }
 .profilePic{
 
-position: absolute;
-width: 356px;
+position: relative;
+width: 100vw;
 height: 299px;
 left: -1px;
 top: 0px;
@@ -86,9 +88,9 @@ top: 0px;
 }
 #profileInfo{
     position: relative;
-width: 168px;
-height: 48px;
-left: 95px;
+width: 30vw;
+height: 2%;
+left: 30%;
 top: 321px;
 
 font-family: 'Inter';
@@ -175,23 +177,35 @@ a{
     margin-left: 281;
 } */
 .myProjs{
-    position: absolute;
+    position: relative;
     display: flex;
+    flex-direction: row;
     border: solid 1px;
-    right: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    right: 25%;
     top: 370px;
-    height: 750px;
-    width: 1200px;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+}
+.someContent{
+    position: relative;
+    border: solid 1px;
+    height: 450px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 .calc{
     position: relative;
     border: solid 1px;
     height: 450px;
     width: 300px;
-    left: 800px;
-    top: 100px;
     border-radius: 10px;
     background-color: #393939;
+    margin:0 auto;
 }
 #calcDisplay{
     position: relative;
